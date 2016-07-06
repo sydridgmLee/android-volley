@@ -48,5 +48,5 @@ public void makeJsonArrayRequest() {
                     }
                 }
         );
-        newsEasy.add(jsonArrayRequest);
+        RequestQueue.add(jsonArrayRequest);
     }
